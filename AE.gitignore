@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+
+# C# / Visual Studio
+.vs/
+bin/
+obj/
+packages/
+*.user
+*.suo
+*.pdb
+
+# 构建/发布产物
+*.exe
+*.dll
+*.zip
+*.rar
+*.7z
+
+# 运行时数据
+log/*
+!log/.gitkeep
+saves/
+region.png
+orl_pic.png
+config.yaml.bak
+*.log
+
+# 个人配置
+target_config.json

@@ -1,0 +1,89 @@
+# 呃呃呃每个变量写的注释都尽量很通俗详细了。。。大概吧
+
+# 识别mss的截图区域由下面属性决定
+mss_config:
+  # 下面是识别遗物的区域
+  # 该数值上升截图框会向右移动
+  relic_x: 1110
+  # 该数值上升截图框会向下移动
+  relic_y: 800
+  # 该数值上升截图框宽度变宽
+  relic_width: 700
+  # 该数值上升截图框高度变大
+  relic_height: 180
+
+  # 识别暗痕的区域
+  dmark_x: 1737
+  dmark_y: 985
+  dmark_width: 162
+  dmark_height: 58
+
+  # 识别请按任一按钮的区域
+  start_x: 880
+  start_y: 835
+  start_width: 155
+  start_height: 30
+
+# ocr识别进入游戏时请按任一按钮和暗痕的最大时间与间隔
+ocr_proins:
+  # 最大检测时间600
+  timeout: 600
+  # 检测间隔2s
+  ins_interval: 2
+
+# 关于key_delay配置，它与电脑是否运行稳定息息相关，建议调的比实际时间大一点，留出缓冲时间
+key_delay:
+  # 按键按下持续时间
+  key_press_duration: 0.02
+  # 两次按键之间的间隔
+  key_press_interval: 0.05
+
+  # 短延时：界面出现/消失（如小壶商人界面）
+  delay_ui_short: 0.5
+  # 常用延时：弹窗确认、通关m选项传送等
+  delay_ui_normal: 2
+
+  # 中长延时：加载场景（标题到圆桌厅堂 / 圆桌厅堂返回标题）
+  delay_scene_load: 11
+  # 长延时：点击返回标题界面后，加载到标题界面的时间
+  delay_full_load: 15
+  # 启动延时：点击一键启动后，加载到标题界面的时间
+  delay_startup: 15
+
+# 关于mode_map是选择模式点击的按键，如果你在选择抽取模式有问题，可以联系我修改这一部分
+mode_map:
+  1:
+    down: 6
+    right: 0
+    up: 1
+  2:
+    down: 6
+    right: 2
+    up: 1
+  3:
+    down: 7
+    extra: true
+    double_q: true
+  4:
+    down: 7
+    extra: true
+    right: 2
+    double_q: true
+  5:
+    down: 6
+    right: 1
+    up: 1
+  6:
+    down: 6
+    right: 3
+    up: 1
+  7:
+    down: 7
+    extra: true
+    right: 1
+    double_q: true
+  8:
+    down: 7
+    extra: true
+    right: 3
+    double_q: true

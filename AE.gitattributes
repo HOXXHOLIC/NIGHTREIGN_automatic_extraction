@@ -1,0 +1,6 @@
+* text=auto
+*.py text eol=lf
+*.cs text eol=crlf
+*.pdiparams binary
+*.png binary
+*.exe binary
