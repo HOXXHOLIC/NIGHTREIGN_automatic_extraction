@@ -1,112 +1,112 @@
 {
-    "set1": {
-        "enable": true,
-        "color": [
-            0,
-            1,
-            0,
-            0
-        ],
-        "size": [
-            0,
-            0,
-            0
-        ],
-        "type": [
-            0,
-            0
-        ],
-        "entry1": {
-            "enable": true,
-            "class": 23,
-            "target": 2
-        },
-        "entry2": {
-            "enable": true,
-            "class": 9,
-            "target": 15
-        },
-        "entry3": {
-            "enable": false,
-            "class": 3,
-            "target": 1
-        }
-    },
-    "set2": {
-        "enable": true,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "size": [
-            0,
-            0,
-            0
-        ],
-        "type": [
-            0,
-            0
-        ],
-        "entry1": {
-            "enable": true,
-            "class": 16,
-            "target": 3
-        },
-        "entry2": {
-            "enable": true,
-            "class": 2,
-            "target": 21
-        },
-        "entry3": {
-            "enable": false,
-            "class": 2,
-            "target": 22
-        }
-    },
-    "set3": {
-        "enable": true,
-        "color": [
-            0,
-            0,
-            0,
-            0
-        ],
-        "size": [
-            0,
-            0,
-            0
-        ],
-        "type": [
-            0,
-            0
-        ],
-        "entry1": {
-            "enable": true,
-            "class": 2,
-            "target": 22
-        },
-        "entry2": {
-            "enable": true,
-            "class": 11,
-            "target": 9
-        },
-        "entry3": {
-            "enable": false,
-            "class": 2,
-            "target": 22
-        }
-    },
-    "extra_mode": 1,
-    "extra_times": 100,
-    "black_list": [
-        0,
-        0,
-        0,
-        0,
-        0
+  "set1": {
+    "enable": false,
+    "color": [
+      0,
+      0,
+      0,
+      0
     ],
-    "game_path": "选择正确的游戏路径",
-    "gamesave_path": "请选择正确的存档路径"
+    "size": [
+      0,
+      0,
+      0
+    ],
+    "type": [
+      0,
+      0
+    ],
+    "entry1": {
+      "enable": true,
+      "class": 1,
+      "target": 1
+    },
+    "entry2": {
+      "enable": true,
+      "class": 1,
+      "target": 1
+    },
+    "entry3": {
+      "enable": false,
+      "class": 1,
+      "target": 1
+    }
+  },
+  "set2": {
+    "enable": false,
+    "color": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "size": [
+      0,
+      0,
+      0
+    ],
+    "type": [
+      0,
+      0
+    ],
+    "entry1": {
+      "enable": true,
+      "class": 1,
+      "target": 1
+    },
+    "entry2": {
+      "enable": true,
+      "class": 1,
+      "target": 1
+    },
+    "entry3": {
+      "enable": false,
+      "class": 1,
+      "target": 1
+    }
+  },
+  "set3": {
+    "enable": false,
+    "color": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "size": [
+      0,
+      0,
+      0
+    ],
+    "type": [
+      0,
+      0
+    ],
+    "entry1": {
+      "enable": true,
+      "class": 1,
+      "target": 1
+    },
+    "entry2": {
+      "enable": true,
+      "class": 1,
+      "target": 1
+    },
+    "entry3": {
+      "enable": false,
+      "class": 1,
+      "target": 1
+    }
+  },
+  "extra_mode": 1,
+  "extra_times": 3,
+  "black_list": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "game_path": "选择游戏路径（GAME文件夹）",
+  "gamesave_path": "请选择存档路径（Nightreign文件夹）"
 }
