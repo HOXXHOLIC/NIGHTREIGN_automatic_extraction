@@ -1,5 +1,5 @@
 ## 工具介绍
-通过 OCR 识别游戏画面，配合固定按键序列完成遗物抽取、词条检查与存档替换。
+通过PP-OCRv5_mobile识别游戏画面，配合固定按键序列完成遗物抽取、词条检查与存档替换。
 
 ## 系统要求
 windows版本: win10 or win11  
@@ -10,7 +10,7 @@ windows版本: win10 or win11
 ## 下载与安装
 
 1. 打开 [Releases](https://github.com/<YOUR_GITHUB_NAME>/automatic_extraction/releases/latest)
-2. 下载最新的 `automatic_extraction_v*.7z`
+2. 下载最新的 `automatic_extraction.7z`
 3. 解压到一个**不含中文**的文件夹
 
 `main.exe`、`fix_tool.exe` 必须和 `automatic_extraction_UI.exe` 在同一目录。
