@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+*.py text eol=lf
+*.cs text eol=crlf
+*.pdiparams binary
+*.png binary
+*.exe binary
