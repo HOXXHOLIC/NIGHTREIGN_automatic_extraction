@@ -257,7 +257,7 @@ class Context:
         self.times = 0
         self.ocr = None
 
-# 状态机.懒得细写,随便搞一个简单点的
+# 状态机.懒得细分,随便搞一个简单点的
 class State:
     INIT = "INIT"
     RUN_MODE = "RUN_MODE"
@@ -454,27 +454,27 @@ def simple_match(ctx: Context):
 def check_entry(ctx: Context):
     if ctx.state.checked_result in (1, 2):
         return
-    # OCR + 清洗
+
     ctx.state.ocr_result = text_clean(mss_ocr(ctx, ctx.app.relic_region))
     logger.info("当前识别到的词条:")
     logger.info(ctx.state.ocr_result)
     logger.info("黑名单词条:")
     logger.info(ctx.target.blacklist)
-    # 没识别到
+
     if not ctx.state.ocr_result or not has_3cn(ctx):
         ctx.state.checked_result = 0
         logger.info("没有识别到目的词条")
         return
     logger.info("识别到目的词条，进行黑名单检测")
-    # 黑名单命中
+
     if ctx.target.blacklist and simple_match(ctx):
         logger.info(r"包含目标黑名单词条，本轮循环结束时将游戏存档存储到saves\blacklist_save文件夹下")
         ctx.state.checked_result = 2
         return
-    # 命中目标词条（正常情况）
+
     logger.info(r"不包含目标黑名单词条，本轮循环结束时将游戏存档储存到saves\target_save文件夹下")
     ctx.state.checked_result = 1
-    # 禁用当前set
+
     s = ctx.state.now_set
     if s == ctx.target.set1:
         ctx.target.set1["enable"] = False
