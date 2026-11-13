@@ -9,7 +9,7 @@ windows版本: win10 or win11
 
 ## 下载与安装
 
-1. 打开 [Releases](https://github.com/<YOUR_GITHUB_NAME>/automatic_extraction/releases/latest)
+1. 打开 [Releases](https://github.com/HOXXHOLIC/NIGHTREIGN_automatic_extraction/releases/latest)
 2. 下载最新的 `automatic_extraction.7z`
 3. 解压到一个**不含中文**的文件夹
 
